@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Класс облочка которая содержит только поддерживаемые RemoteRest методы TaskService
+ * РљР»Р°СЃСЃ РѕР±Р»РѕС‡РєР° РєРѕС‚РѕСЂР°СЏ СЃРѕРґРµСЂР¶РёС‚ С‚РѕР»СЊРєРѕ РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹Рµ RemoteRest РјРµС‚РѕРґС‹ TaskService
  *
  * @author aivanov
  */

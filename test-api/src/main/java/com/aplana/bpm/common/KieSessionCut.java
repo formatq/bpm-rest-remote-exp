@@ -9,7 +9,7 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * Облочка которая содержит только поддерживаемые RemoteRest методы KieSession
+ * РћР±Р»РѕС‡РєР° РєРѕС‚РѕСЂР°СЏ СЃРѕРґРµСЂР¶РёС‚ С‚РѕР»СЊРєРѕ РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹Рµ RemoteRest РјРµС‚РѕРґС‹ KieSession
  * @author aivanov
  */
 public class KieSessionCut {

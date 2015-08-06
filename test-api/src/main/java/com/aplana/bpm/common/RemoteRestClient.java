@@ -9,8 +9,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Оберка для RemoteRuntimeEngine и основных интерефесов.
- * Скрывает методы которые не поддерживаются в Rest реализиции общий интерфейсов KieSession и т.д.
+ * РћР±РµСЂРєР° РґР»СЏ RemoteRuntimeEngine Рё РѕСЃРЅРѕРІРЅС‹С… РёРЅС‚РµСЂРµС„РµСЃРѕРІ.
+ * РЎРєСЂС‹РІР°РµС‚ РјРµС‚РѕРґС‹ РєРѕС‚РѕСЂС‹Рµ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°СЋС‚СЃСЏ РІ Rest СЂРµР°Р»РёР·РёС†РёРё РѕР±С‰РёР№ РёРЅС‚РµСЂС„РµР№СЃРѕРІ KieSession Рё С‚.Рґ.
  *
  * @author aivanov
  */
@@ -38,7 +38,7 @@ public class RemoteRestClient {
         try {
             URL _url = new URL(url);
             remoteConfiguration = new RemoteConfiguration(deploymentId, _url, userId, password);
-            // Устанавливем так потому что в в контсрукторе урл не проставляется (бага редхата)
+            // РЈСЃС‚Р°РЅР°РІР»РёРІРµРј С‚Р°Рє РїРѕС‚РѕРјСѓ С‡С‚Рѕ РІ РІ РєРѕРЅС‚СЃСЂСѓРєС‚РѕСЂРµ СѓСЂР» РЅРµ РїСЂРѕСЃС‚Р°РІР»СЏРµС‚СЃСЏ (Р±Р°РіР° СЂРµРґС…Р°С‚Р°)
             remoteConfiguration.setServerBaseRestUrl(_url);
         } catch (MalformedURLException e) {
             throw new IllegalStateException("This URL is always expected to be valid!", e);
